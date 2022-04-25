@@ -2,7 +2,7 @@
 
 Requisitos
 
-- Python3 instalado (en Windows se descarga desde la tienda Micrisift)
+- Python3 instalado (en Windows se descarga desde la tienda Micrpsoft)
 - Instalar Selenium y el wendrive ejecutando
   - pip install selenium
   - pip install webdriver_manager
