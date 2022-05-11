@@ -42,7 +42,7 @@ def InitBrowser(browser):
 	browser.find_element('id' , "LoginApps_Password").send_keys(PASSWORD)
 	browser.find_element('id' , "LoginApps_btnlogin").click()
 	window_before = browser.window_handles[0]
-	browser.find_element('id' , "MainContent_tbl01").click()
+	browser.find_element('id' , "MainContent_tableitem1").click()
 	# browser.switch_to.window('iWom')
 	window_after = browser.window_handles[1]
 	browser.switch_to.window(window_after)
