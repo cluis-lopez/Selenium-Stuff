@@ -13,5 +13,6 @@ Editar el script con un editor y modificar las variables requeridas:
 - FIRST_DAY, LAST_DAY: el día de comienzo y el final. Si hay festivos entre medias (aparte de Sábados y Domingos) esos días no se actualizarán segun los calendarios de festivos definidos en las variables FIX_NATIONAL_HOLIDAYS, VARIABLE_NATIONAL_HOLIDAYS y LOCAL_HOLIDAYS. En el script están definidos los festivos de Madrid en 2022. Actualizar o corregir si es necesario
 - STARTING_HOUR, VARIANCE: la hora de comienzo y la variación aleatoria en minutos. Ejemplo si la hora de comienzo son “09:00” y VARIANCE son 60, el programa generará hora aleatorias de entrada entre las 08:30 y las 09:30. Así queda más realista 😊
 - EXTRA_TIME: el tiempo de la comida o no computable
+- URL_HOMEPAGE: completar con la dirección correcta (que no se publica en GitHub por confidencialidad)
 -	LOCAL_HOLIDAYS, VARIABLE_HOLIDAYS para ajustar los festivos en cada año/region
 
